@@ -77,7 +77,9 @@ Activity and Goals: The purpose of the device is to allow anyone using the stove
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+
 ![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard_1.jpg?raw=true)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 The members of my breakout room said the idea was cool and had some practical usefulness, but was not a particularly revolutionary idea since most people who cook generally have a good idea of how hot something is and rarely run into accidents.

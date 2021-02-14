@@ -68,13 +68,15 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
-
+Setting: The device's setting will be in a kitchen, most likely near a stove and will practically be used when the stove is on and there are multiple objects on top of it.
+Players: The players will be whoever is currently cooking or using the stove in the kitchen.
+Activity and Goals: The purpose of the device is to allow anyone using the stove to point to an object on the stove, and have the device show different colors based on how safe the object is to touch (how hot/cool it is). This can help people new to cooking more safely interact and work with their stove so they do not accidentally burn themselves or try to pick up something too hot and subsequently drop it.
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-
+The members of my breakout room said the idea was cool and had some practical usefulness, but was not a particularly revolutionary idea since most people who cook generally have a good idea of how hot something is and rarely run into accidents.
 
 ## Part B. Act out the Interaction
 

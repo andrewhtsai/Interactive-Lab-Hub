@@ -82,7 +82,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-The members of my breakout room said the idea was cool and had some practical usefulness, but was not a particularly revolutionary idea since most people who cook generally have a good idea of how hot something is and rarely run into accidents.
+The members of my breakout room said the idea was cool and had some practical usefulness, but was not a particularly revolutionary idea since most people who cook generally have a good idea of how hot something is and rarely run into accidents. Another piece of feedback was that integrating audio would be helpful since there could be a mix of visual and audio cues to signify when there is potential danger.
 
 ## Part B. Act out the Interaction
 

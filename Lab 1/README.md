@@ -117,7 +117,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 **Show the follow-up work here.**
 
-https://drive.google.com/file/d/18k6nSGaZH8o45-YKJ9phGncjAWOds7mS/preview
+https://drive.google.com/file/d/18k6nSGaZH8o45-YKJ9phGncjAWOds7mS/view?usp=sharing
 
 ## Part E. Costume the device
 

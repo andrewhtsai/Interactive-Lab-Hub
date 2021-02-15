@@ -92,6 +92,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+The idea seemed to hold up well upon being acted out; having a visual aid for the temperature of an object did seem quite practical and initially feels like it could be a useful gadget for kitchen users. One potential issue is indeed the fact that experienced cooks would not have a particular need for this device since their experience removes its helpfulness. A new idea which would be a good extension of the project was indeed the integration of sound into the device, which could potentially help those who are visually impaired, enabling them to cook and use a stove while reducing risk of injury.
 
 ## Part C. Prototype the device
 

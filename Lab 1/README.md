@@ -127,8 +127,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
+![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%201/sketch_1.jpg?raw=true)
 
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
+The device, in order to operate safely in a kitchen environment, is likely to be safer on top of the ventilator above a stove (if it exists) since that can help prevent potential damage from splashes and water vapor during cooking. It also provides a convenient mounting location for the device that is still visually easily accessible to most users except maybe very young children.
 
 ## Part F. Record
 

@@ -153,6 +153,10 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Feedback - in general, others thought it was a good idea, especially with the gesture-based functionality.
+Grace: It would be good if it signified whether something was burning, which would help with cooking and also keep track of things that may need to be taken off the stove.
+Caitlin: A motion sensor could be integrated to let people passing the stove know if burners are still on or if pans are hot so they don't bump into a hot pan or leave a burner on unintentionally.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 

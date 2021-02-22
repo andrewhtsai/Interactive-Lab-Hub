@@ -171,6 +171,10 @@ This time, there were several improvements on the original prototype based on th
 
 ![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%201/heatsense_pic.jpg?raw=true)
 
+Based on feedback, I thought including a feature for voice-activation would greatly enhance the prototype, since then it could be used if a chef is away from the stove or if their hands are full (which is often the case when cooking). The storyboard is shown below: 
+
+![alt_text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%201/heatsense_storyboard.jpg)
+
 Here is a video showcasing the improved design (apologies for the low quality, I am not sure what the issue was with my camera):
 
 https://drive.google.com/file/d/1PM3i22d0vLlaEsM_aDCDpJevw8n5JU1A/view?usp=sharing

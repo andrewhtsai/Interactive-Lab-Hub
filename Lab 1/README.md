@@ -167,5 +167,6 @@ Do last week’s assignment again, but this time:
 
 This time, there were several improvements on the original prototype based on the feedback from last week and from some difficulties using the device from last time. First, we gave the device a physical mount with a more "official"-looking design:
 
+![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%201/heatsense_pic.jpg?raw=true)
 
 **Document everything here.**

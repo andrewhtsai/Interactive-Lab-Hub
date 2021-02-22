@@ -165,4 +165,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+This time, there were several improvements on the original prototype based on the feedback from last week and from some difficulties using the device from last time. First, we gave the device a physical mount with a more "official"-looking design:
+
+
 **Document everything here.**

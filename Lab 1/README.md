@@ -165,6 +165,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+
 **Document everything here.**
 
 This time, there were several improvements on the original prototype based on the feedback from last week and from some difficulties using the device from last time. First, I gave the device a physical mount with a more "official"-looking design:
@@ -182,6 +183,7 @@ https://drive.google.com/file/d/1PM3i22d0vLlaEsM_aDCDpJevw8n5JU1A/view?usp=shari
 And here is a demonstration of the voice-activation capabilities of the device:
 
 https://drive.google.com/file/d/1S_As3CGBVzQIGvg760WQdVUNbGQUCzAo/view?usp=sharing
+
 
 Contributors: big thank you to Sujith for helping out with filming again!
 

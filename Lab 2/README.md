@@ -164,10 +164,13 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 For this lab, I worked together with Sujith Naapa Ramesh.
-Here is the link to our video: https://drive.google.com/file/d/1ilodSSVOCVdISbwctyRpbYKOnFvwKpHv/view?usp=sharing
+Here is the link to the video for our first, barebones PiClock: https://drive.google.com/file/d/1ilodSSVOCVdISbwctyRpbYKOnFvwKpHv/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Final PiClock video with voice feature: https://drive.google.com/file/d/178UDx24KpyM4ygkGDAQ7oOOYywbtm2YS/view?usp=sharing
+Close-up video of LCD screen: https://drive.google.com/file/d/1_S_vMTNng_NfQCV-Qf9eXbSrswDJRKce/view?usp=sharing
 
 
 

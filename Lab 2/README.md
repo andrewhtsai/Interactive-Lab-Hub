@@ -170,6 +170,7 @@ Here is the link to the video for our first, barebones PiClock: https://drive.go
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 Final PiClock video with voice feature: https://drive.google.com/file/d/178UDx24KpyM4ygkGDAQ7oOOYywbtm2YS/view?usp=sharing
+
 Close-up video of LCD screen: https://drive.google.com/file/d/1_S_vMTNng_NfQCV-Qf9eXbSrswDJRKce/view?usp=sharing
 
 

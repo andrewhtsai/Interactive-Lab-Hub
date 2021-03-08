@@ -173,5 +173,8 @@ Final PiClock video with voice feature: https://drive.google.com/file/d/178UDx24
 
 Close-up video of LCD screen: https://drive.google.com/file/d/1_S_vMTNng_NfQCV-Qf9eXbSrswDJRKce/view?usp=sharing
 
+Our code for the speech-to-text functionality is in vosk_demo_mic.sh and test_words.py; code for text-to-speech (for telling the time) is in espeak_demo.sh and screen_clock.py 
+has the code for the LCD screen clock.
+
 
 

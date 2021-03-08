@@ -179,5 +179,6 @@ Close-up video of LCD screen: https://drive.google.com/file/d/1_S_vMTNng_NfQCV-Q
 Our code for the speech-to-text functionality is in vosk_demo_mic.sh and test_words.py; code for text-to-speech (for telling the time) is in espeak_demo.sh and screen_clock.py 
 has the code for the LCD screen clock.
 
+Contributions: We both worked on the sketches/brainstorming and the LCD screen clock, while Sujith handled the speech-to-text functionality and Andrew handled the text-to-speech portion.
 
 

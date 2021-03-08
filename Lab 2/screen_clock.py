@@ -50,7 +50,7 @@ top = padding
 bottom = height - padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = 0
-
+y = top
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
@@ -64,9 +64,23 @@ backlight.value = True
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    curhour = int(time.strftime("%H"))
+    curmin = int(time.strftime("%M"))
+    cursec = int(time.strftime("%S"))
+    
+    #draw hour bar
+    draw.text((0, 0), 'H:', font=font, fill = (235, 52, 94))
+    draw.rectangle((24, 0, 24 + 9*curhour, 20), outline=1, fill=(235, 52, 94))
+    draw.text((28, 0), str(curhour), font=font, fill = (0, 0, 0))
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+    #draw minute bar
+    draw.text((0, 21), 'M:', font=font, fill = (66, 245, 129))
+    draw.rectangle((24, 21, 24 + int(3.4*curmin), 40), outline=1, fill=(66, 245, 129))
+    draw.text((28, 21), str(curmin), font=font, fill = (0, 0, 0))
+    
 
-    # Display image.
+    draw.text((0, 41), 'S:', font=font, fill = (245, 239, 66))
+    draw.rectangle((24, 41, 24 + int(3.4*cursec), 60), outline=1, fill=(245, 239, 66))
+    draw.text((28, 41), str(cursec), font=font, fill = (0, 0, 0))
+    
     disp.image(image, rotation)
-    time.sleep(1)

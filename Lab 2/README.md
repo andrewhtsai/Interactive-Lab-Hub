@@ -50,6 +50,16 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ## Part A. 
 ## Connect to your Pi
 
+Just like you did in the lab prep, ssh on to your pi. Once there create a Python environment.
+
+```
+ssh pi@ixe00
+pi@ixe00:~ $ virtualenv circuitpython
+pi@ixe00:~ $ source circuitpython/bin/activate
+(circuitpython) pi@ixe00:~ $ 
+
+```
+
 ## Part B. 
 ### Try out the Command Line Clock
 Clone the repo for this assignment
@@ -68,7 +78,7 @@ Install the packages from the requirements.txt and run the example
 02/24/2021 11:20:49
 ```
 you can press `ctrl-c` to exit.
-If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
+If you're unfamiliar with the Python code in `cli_clock.py` have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned, please reach out to the teaching staff!
 
 
 ## Part C. 
@@ -126,7 +136,7 @@ We can test it by typing
 python screen_test.py
 ```
 
-You can type the name of a color then press either of the buttons to see what happens on the display. take a look at the code with
+You can type the name of a color then press either of the buttons to see what happens on the display. Take a look at the code with
 ```
 cat screen_test.py
 ```
@@ -150,7 +160,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
-you can push to your personal github repo by adding the files here, commiting and pushing.
+You can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
 git add .
@@ -158,7 +168,7 @@ git commit -m'your message here'
 git push
 ```
 
-After that git will ask you to login to your github account to upload.
+After that, git will ask you to login to your github account to upload.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
@@ -180,5 +190,6 @@ Our code for the speech-to-text functionality is in vosk_demo_mic.sh and test_wo
 has the code for the LCD screen clock.
 
 Contributions: We both worked on the sketches/brainstorming and the LCD screen clock, while Sujith handled the speech-to-text functionality and Andrew handled the text-to-speech portion.
+
 
 

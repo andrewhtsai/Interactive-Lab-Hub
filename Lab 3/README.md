@@ -86,7 +86,7 @@ Our storyboard for PyCom:
 
 *Include videos or screencaptures of both the system and the controller.*
 
-Here is a video demonstrating our system: https://drive.google.com/file/d/1SUpWerY2CTSv-QRWXjFIHoZzKEhVfbUO/view?usp=sharing
+There is a video demonstrating our PyCom system using the proximity sensor, LED button, and PiCamera at [this link]( https://drive.google.com/file/d/1ZZcboCBSxLsFTcf2vm4l6__tm8_FRrq4/view?usp=sharing)
 
 For the camera interface used with Flask, we used some examples from [here](https://github.com/EbenKouao/pi-camera-stream-flask).
 ## Test the system

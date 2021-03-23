@@ -87,6 +87,8 @@ Our storyboard for PyCom:
 *Include videos or screencaptures of both the system and the controller.*
 
 Here is a video demonstrating our system: https://drive.google.com/file/d/1SUpWerY2CTSv-QRWXjFIHoZzKEhVfbUO/view?usp=sharing
+
+For the camera interface used with Flask, we used some examples from [here](https://github.com/EbenKouao/pi-camera-stream-flask).
 ## Test the system
 We had two of Sujith's housemates help test out our system and provide some feedback.
 

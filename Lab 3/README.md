@@ -70,7 +70,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
-*what was the feedback? Who did it come from?*
+Grace Tan: "I really like your idea and thought it was also a nice touch with the LEDs.  I think it would also be cool if the system could "learn" and "remember" people the users have invited in the past- as a future step"
 
 ## Prototype your system
 
@@ -88,23 +88,29 @@ Our storyboard for PyCom:
 
 Here is a video demonstrating our system: https://drive.google.com/file/d/1SUpWerY2CTSv-QRWXjFIHoZzKEhVfbUO/view?usp=sharing
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
-
-Answer the following:
+We had two of Sujith's housemates help test out our system and provide some feedback.
 
 ### What worked well about the system and what didn't?
-*your answer here*
+Andy Zhu: The arming operation and the speech seemed to work, but the proximity sensor was inconspicuous and it was not obvious how to interact with it. There was also
+a lot of latency between speaking into the mic and hearing a response, which made the system feel a little unnatural.
+
+Rishi Singhal: The bright red LED signifying armed/disarmed was cool, and waving the hand as kind of a "doorbell ringing" gesture was a neat interaction. The voice
+latency however felt like it could be improved.
+
 
 ### What worked well about the controller and what didn't?
-
-*your answer here*
+The text to speech worked amazingly well, and was a great way to introduce an "automated" feel to the system experienced by the end user. However, the latency of 
+transmitting the mic voice audio was quite high as remarked on by our two testers, and that made the interaction feel more unnatural than it could have been with 
+modern technology especially when considering the added time of having to type a response.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-*your answer here*
+If the system were automated, the overall latency would likely be very much reduced since the need for streaming/responding would be removed, and instead replaced
+with logic running on the Pi. A database containing names of "good neighbors", as part of Grace's feedback, would be a very good implementation feature, although
+the logic for determining whether to disarm for a new arrival would likely require several back-and-forth dialogues and would be rather complicated to program.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
+A potential sensor to use for this intercom/security system would be a fingerprint sensor, which would easily allow for authentication of people who are
+already registered within the system. Also, now in COVID times, a temperature sensor could also be integrated to allow for temperature measurements before anyone
+is allowed in.
 

@@ -114,3 +114,4 @@ A potential sensor to use for this intercom/security system would be a fingerpri
 already registered within the system. Also, now in COVID times, a temperature sensor could also be integrated to allow for temperature measurements before anyone
 is allowed in.
 
+For this lab, both were very hands-on with the hardware and software, and we used peer programming when writing code for all of the software files that we worked on.

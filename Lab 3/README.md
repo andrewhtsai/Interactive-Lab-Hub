@@ -86,6 +86,7 @@ Our storyboard for PyCom:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+Here is a video demonstrating our system: https://drive.google.com/file/d/1SUpWerY2CTSv-QRWXjFIHoZzKEhVfbUO/view?usp=sharing
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 

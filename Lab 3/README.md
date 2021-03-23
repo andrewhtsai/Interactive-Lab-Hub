@@ -79,6 +79,9 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
+
+Our storyboard for PyCom:
+![Sketch 1](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%203/ECE5413_Lab3Storyboard.jpg)
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*

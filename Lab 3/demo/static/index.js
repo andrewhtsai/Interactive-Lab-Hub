@@ -124,28 +124,37 @@ const mic = document.getElementById('mic');
 const play = document.getElementById('play');
 const wordsIn = document.getElementById('wordsIn');
 const send = document.getElementById('send');
+const arm = document.getElementById('arm');
 
 const src = mic.src
 mic.src = ''
+
 
 play.onclick = () => {
   if(mic.paused) {
   console.log('redo audio')
   mic.src = src
   mic.play()
-  play.innerText='Pause'
+  play.innerText='Stop Listening'
   } else {
     mic.pause()
       mic.src = '';
-    play.innerText='Eavesdrop'
+    play.innerText='Listen on PyCom'
   }
   
 }
 
+
 send.onclick = () => {
   socket.emit('speak', wordsIn.value)
-  wordsIn.value = ''
+  wordsIn = ''  
 }
+
+arm.onclick = () => {
+  console.log('arm');
+  socket.emit('arm', '1')
+}
+
 wordsIn.onkeyup = (e) => { if (e.keyCode === 13) { send.click(); } };
   
 setInterval(() => {

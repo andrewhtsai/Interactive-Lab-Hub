@@ -1,6 +1,8 @@
 Adafruit-Blinka==6.4.0
 adafruit-circuitpython-busdevice==5.0.6
 adafruit-circuitpython-mpu6050==1.1.6
+adafruit-circuitpython-apds9960
+sparkfun-qwiic-button
 adafruit-circuitpython-register==1.9.5
 Adafruit-PlatformDetect==3.3.0
 Adafruit-PureIO==1.1.8

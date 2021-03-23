@@ -4,11 +4,15 @@ eventlet.monkey_patch()
 from flask import Flask, Response,render_template
 from flask_socketio import SocketIO, send, emit
 from subprocess import Popen, call
+from camera import Camera
 
 import time
 import board
 import busio
 import adafruit_mpu6050
+import adafruit_apds9960.apds9960
+import qwiic_button
+import math
 import json
 import socket
 
@@ -18,18 +22,39 @@ from queue import Queue
 
  
 i2c = busio.I2C(board.SCL, board.SDA)
-mpu = adafruit_mpu6050.MPU6050(i2c)
-
+#mpu = adafruit_mpu6050.MPU6050(i2c)
+gesture = adafruit_apds9960.apds9960.APDS9960(i2c)
+gesture.enable_proximity = True
+button = qwiic_button.QwiicButton()
+#button.LED_BRIGHTNESS = 0x19
+if button.begin() == False: 
+    print("failed")
 hostname = socket.gethostname()
-hardware = 'plughw:2,0'
+hardware = 'plughw:3,0'
 
+led_toggle = 0
 app = Flask(__name__)
 socketio = SocketIO(app)
 audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcodec=none,acodec=mp3,ab=256,channels=2,samplerate=44100,scodec=none}:http{mux=mp3,dst=:8080/}' --no-sout-all --sout-keep", shell=True)
 
 @socketio.on('speak')
 def handel_speak(val):
+    print(val)
+    global led_toggle
     call(f"espeak '{val}'", shell=True)
+
+
+@socketio.on('arm')
+def handle_arm(val):
+    global led_toggle 
+    if(led_toggle==0):
+        led_toggle=1
+        button.LED_on(100)
+        call(f"espeak 'armed'", shell=True)
+    else:
+        led_toggle=0
+        button.LED_on(0)
+
 
 @socketio.on('connect')
 def test_connect():
@@ -39,7 +64,9 @@ def test_connect():
 @socketio.on('ping-gps')
 def handle_message(val):
     # print(mpu.acceleration)
-    emit('pong-gps', mpu.acceleration) 
+    emit('pong-gps', gesture.proximity) 
+    if(gesture.proximity>5): 
+        emit('gesture', '1')
 
 
 
@@ -57,5 +84,4 @@ signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
     socketio.run(app, host='0.0.0.0', port=5000)
-
 

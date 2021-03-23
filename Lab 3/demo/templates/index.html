@@ -15,15 +15,15 @@
 <body>
 	<div id='chart'></div>
     <br>
-	<button id = 'play'>Eavesdrop</button>
+	<button id = 'play'>Listen on PyCom</button>
     <audio id='mic' src="http://{{ hostname }}.local:8080" >
     </audio>
         <br>
             <br>
-    <label> Speak
+    <label> PyCom Output:
         <input type="text" id='wordsIn'>
-        <button id='send'>send</button>
-
+        <button id='send' onclick="send()">send</button>
+	<button id='arm'>arm</button>
     </label>
 <script src="static/index.js"></script>
 </body>

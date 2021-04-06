@@ -154,3 +154,5 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+For this lab, I collaborated with Sujith Naapa Ramesh (sn438), here is the link to the README: https://github.com/sujithnr/Interactive-Lab-Hub/blob/Spring2021/Lab%204/README.md

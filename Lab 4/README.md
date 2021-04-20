@@ -130,6 +130,7 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+
 **b. Make a video of your paper display in action.**
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
@@ -153,8 +154,5 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
-
+For this lab, I collaborated with Sujith Naapa Ramesh (sn438), here is the link to the README: https://github.com/sujithnr/Interactive-Lab-Hub/blob/Spring2021/Lab%204/README.md

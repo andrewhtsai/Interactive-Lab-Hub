@@ -151,10 +151,15 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **Include a short video demonstrating the answers to these questions.**
+Our video answering these questions can be found [here](https://drive.google.com/file/d/1eiPhdQPKhIHkjXhv0XilJd30r4qmnkoX/view?usp=sharing)
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+Our video showing a demonstration of the final product is [here](https://drive.google.com/file/d/1cW7JX8A9F8dvAUnqGkXe3j36oqWrXYD-/view?usp=sharing)
 
+
+**Work Distribution**
+Andrew and Sujith worked together on this lab with a brainstorming session to decide how we would use OpenCV, and then after deciding on the project, using peer programming to develop the code and coming up with answers to the characterization questions together.

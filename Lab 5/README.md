@@ -159,9 +159,22 @@ which would introduce artifical movements and thus reducing the accuracy shown b
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+ 
+Some of the uncertainties are the physical size of the experiment, the lighting in the environment, and the colors present in the experiment. A user also
+may not be aware of the detection limitations of the experiment, and if a sub-optimal set of samples is used, they may end up getting notified improperly.
+
+2. How bad would they be impacted by a miss classification?
+
+If the device predicts a change in the experiment when there has not been one, then the user is notified to check on the experiment when they don’t need to. If the device misses a change, then the user will miss important pieces of data from the experiment, which is much more problematic.
+
+3. How could change your interactive system to address this?
+
+The system could be much more sensitive to changes in the experiment because it is much better to have unnecessary notifications than missed notifications. It could also
+likely benefit from another camera running the same program so that the two can cross-reference each other for more accuracy.
+
+4. Are there optimizations you can try to do on your sense-making algorithm?
+
+We could potentially incorporate detecting changes in the color of the experiment. Since many experiments show color changes over time, our computer vision algorithm could incorporate this input to determine when the experiment might be finished.
 
 ### Part D
 ### Characterize your own Observant system

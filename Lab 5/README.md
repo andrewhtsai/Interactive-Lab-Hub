@@ -151,6 +151,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **Include a short video demonstrating the answers to these questions.**
+
 Our video answering these questions can be found [here](https://drive.google.com/file/d/1eiPhdQPKhIHkjXhv0XilJd30r4qmnkoX/view?usp=sharing)
 
 ### Part 2.
@@ -158,6 +159,7 @@ Our video answering these questions can be found [here](https://drive.google.com
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+
 Our video showing a demonstration of the final product is [here](https://drive.google.com/file/d/1cW7JX8A9F8dvAUnqGkXe3j36oqWrXYD-/view?usp=sharing)
 
 

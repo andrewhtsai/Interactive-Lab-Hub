@@ -186,6 +186,8 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **Include a short video demonstrating the finished result.**
 
+[A short storyboard detailing the final interaction (video below):](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%205/ECE%205413-11.jpg)
+
 Our video showing a demonstration of the final product is [here](https://drive.google.com/file/d/1cW7JX8A9F8dvAUnqGkXe3j36oqWrXYD-/view?usp=sharing)
 
 

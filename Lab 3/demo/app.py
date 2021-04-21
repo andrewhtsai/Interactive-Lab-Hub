@@ -4,7 +4,6 @@ eventlet.monkey_patch()
 from flask import Flask, Response,render_template
 from flask_socketio import SocketIO, send, emit
 from subprocess import Popen, call
-from camera import Camera
 
 import time
 import board
@@ -30,7 +29,7 @@ button = qwiic_button.QwiicButton()
 if button.begin() == False: 
     print("failed")
 hostname = socket.gethostname()
-hardware = 'plughw:3,0'
+hardware = 'plughw:1,0'
 
 led_toggle = 0
 app = Flask(__name__)

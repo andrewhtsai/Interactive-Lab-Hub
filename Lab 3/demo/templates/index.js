@@ -129,33 +129,32 @@ const arm = document.getElementById('arm');
 const src = mic.src
 mic.src = ''
 
-
 play.onclick = () => {
   if(mic.paused) {
   console.log('redo audio')
   mic.src = src
   mic.play()
-  play.innerText='Stop Listening'
+  play.innerText='Pause'
   } else {
     mic.pause()
       mic.src = '';
-    play.innerText='Listen on PyCom'
+    play.innerText='Eavesdrop'
   }
   
 }
 
-
-send.onclick = () => {
-  socket.emit('speak', wordsIn.value)
-  wordsIn = ''  
+//send.onclick = () => {
+//  socket.emit('speak', wordsIn.value)
+//  wordsIn.value = ''
+//  alert('sent');
 }
 
-arm.onclick = () => {
-  console.log('arm');
-  socket.emit('arm', '1')
-}
+//arm.onclick = () => {
+//  console.log('arm');
+//  socket.emit('arm', '1')
+//}
 
-wordsIn.onkeyup = (e) => { if (e.keyCode === 13) { send.click(); } };
+//wordsIn.onkeyup = (e) => { if (e.keyCode === 13) { send.click(); } };
   
 setInterval(() => {
   socket.emit('ping-gps', 'dat')
@@ -181,12 +180,12 @@ var vlSpec = {
 vegaEmbed('#chart', vlSpec).then( (res) => {
   let  x, y, z;
   let counter = -1;
-  let cat = ['proximity']
+  let cat = ['x', 'y', 'z']
   let minimumX = -100;
    socket.on('pong-gps', (new_x,new_y,new_z) => {
     counter++;
     minimumX++;
-    const newVals = [new_x].map((c,v) => {
+    const newVals = [new_x, new_y, new_z].map((c,v) => {
       return {
       x: counter,
       y: c,

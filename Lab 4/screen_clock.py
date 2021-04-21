@@ -91,9 +91,10 @@ while True:
     
     if(yScroll<-195):
         accelArray[0:3] = accelArray[1:4]
-        accelArray[4] = (abs(mpu.acceleration[0])+abs(mpu.acceleration[1]+9.8)+abs(mpu.acceleration[2]))*(abs(mpu.acceleration[0])+abs(mpu.acceleration[1]+9.8)+abs(mpu.acceleration[2]))
+        accelArray[4] = (abs(mpu.acceleration[0]+9.8)+abs(mpu.acceleration[1])+abs(mpu.acceleration[2]))*(abs(mpu.acceleration[0]+9.8)+abs(mpu.acceleration[1])+abs(mpu.acceleration[2]))
         avgArray[0:1] = avgArray[1:2]
         avgArray[2] = (accelArray[0]+accelArray[1]+accelArray[2]+accelArray[3]+accelArray[4])
+        print(((avgArray[0]+avgArray[1]+avgArray[2])/3))
         if((avgArray[0]+avgArray[1]+avgArray[2])/3)>10:
             draw.text((0, 33), "Good!", font=font, fill = (0,255,0))
         else:

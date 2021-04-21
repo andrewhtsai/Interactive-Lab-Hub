@@ -121,7 +121,15 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-We first experimented with all four of the given OpenCV examples, and we decided that we really liked the flow detection. We thought it could potentially be useful for autonomous tracking of data points, and then we put an experimental lab setting spin on it. We envisioned the interaction being a scientist running an experiment on some distinct samples, potentially tracking their movement over a period of time. Other features would include detection of interference of any sort, like if someone else moves the samples and thus ruins the experiment. We experimented using drawings on a piece of paper and by moving the camera around, though we finally settled on drawing shapes on a tablet which gave the flexibility of moving the shapes around while keeping lighting conditions stable and allowing for finer control.
+We first experimented with all four of the given OpenCV examples, and we decided that we really liked the flow detection. We thought it could potentially be useful for autonomous tracking of data points, and then we put an experimental lab setting spin on it. 
+We envisioned the interaction being a scientist running an experiment on some distinct samples, potentially tracking their movement over a period of time. Other features would include detection of interference of any sort, like if someone else moves the samples and thus ruins the experiment. 
+We experimented using drawings on a piece of paper and by moving the camera around, though we finally settled on drawing shapes on a tablet which gave the flexibility of moving the shapes around while keeping lighting conditions stable and allowing for finer control. 
+We also thought it would be a good idea to implement an additional feature which would be beneficial for experiments: color detection. By analyzing and identifying distinct colors, the system can give much more information to someone running the experiment with regards to the sample behaviors. Thus a colored bounding box corresponding to the color
+of the samples is drawn on top of each sample.
+
+We also implemented a notification system, where if something drastic happens to the samples, such as a sample moving out of the detection area or interference causing samples
+to no longer be detected, the program would stop and the experimenter would be sent a notification email. We originally wanted the program to continue running in case it would
+recover from the error, but we came to the realization that we did not want to end up potentially sending large amounts of spam emails.
 
 
 ### Part C
@@ -130,10 +138,24 @@ We first experimented with all four of the given OpenCV examples, and we decided
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it do what it is supposed to do?
-2. 
-3. When does it fail?
-4. When it fails, why does it fail?
-5. Based on the behavior you have seen, what other scenarios could cause problems?
+    
+The system does what it is supposed to do when the tablet is placed in front of the camera and the samples are clearly displayed on the screen.
+
+2. When does it fail?
+
+The system fails when the tablet is placed irregularly causing extreme differences in lighting from one end of the screen to the other. In addition, it also fails when 
+the environmental lighting changes drastically, or when there is too much movement in the camera frames capturing the sample behavior.
+
+3. When it fails, why does it fail?
+
+Another Set of Eyes is quite sensitive to lighting, due to limits in the robustness of the openCV scripts. By testing with the masking thresholds for color detection, we were
+able to increase the accuracy of the bounding boxes for the differently colored samples. However, we were not able to improve the accuracy of the flow detection algorithm, which
+would often assign multiple flow points to the same sample object due to its usage of corner detection rather than assigning a single point to a given contour.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Other scenarios that could cause problems would be if the experiment was carried out in an unstable environment with random movements that would shake the camera or the samples,
+which would introduce artifical movements and thus reducing the accuracy shown by the resultant flows. Another potential failure case would be if the samples were all different colors, which would confuse the system and cause it to sometimes detect false results if a color happened to be on the detection border for a given color.
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?

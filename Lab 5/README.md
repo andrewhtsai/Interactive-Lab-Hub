@@ -121,15 +121,19 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+We first experimented with all four of the given OpenCV examples, and we decided that we really liked the flow detection. We thought it could potentially be useful for autonomous tracking of data points, and then we put an experimental lab setting spin on it. We envisioned the interaction being a scientist running an experiment on some distinct samples, potentially tracking their movement over a period of time. Other features would include detection of interference of any sort, like if someone else moves the samples and thus ruins the experiment. We experimented using drawings on a piece of paper and by moving the camera around, though we finally settled on drawing shapes on a tablet which gave the flexibility of moving the shapes around while keeping lighting conditions stable and allowing for finer control.
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do?
+2. 
+3. When does it fail?
+4. When it fails, why does it fail?
+5. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?

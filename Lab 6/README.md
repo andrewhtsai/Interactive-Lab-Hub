@@ -85,12 +85,23 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 Find at least one class (more are okay) partner, and design a distributed application together. 
 
-**1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**1. Explain your design** 
+
+Our design is a Manhunt game, where one player is designated as the "hunted" player. This player (sender) uses a PiCam and an accelerometer to send image and accelerometer data through MQTT in order for the other players (clients) to deduce where the hunted player is. The accelerometer is constantly sending data, while the camera takes and sends a new image at set intervals (15 seconds in our demo video, but a more realistic value would be maybe 1 minute for a smaller game in a building, 5 minutes for a campus-wide game, etc.)
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-**3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
+**3. Build a working prototype of the system.** 
 
-**4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+Since this is part of a game, from an interactivity standpoint they should already know what is going on by the time they start interacting with the system. That being said, to allow for greater accessibility, we could simply broadcast a "game manual" of sorts every few minutes on the MQTT channel we use, so anyone that happens 
+to tune in can easily participate if they so desire. We made two videos of our working prototype: one explaining the motivations and behavior of the system, and another showing off some slick gameplay.
 
-**5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
+**4. Document the working prototype in use.** 
+
+Our video documenting the overall behavior of the system is [here](https://drive.google.com/file/d/1c32x9ecdoIU7HTg9yGIjIo-z6IRH5jPE/view?usp=sharing)
+
+Our video showing off potential gameplay [here](https://drive.google.com/file/d/1lSzOIewqF1QlXt3jtfKm-DlmrpXcWwVk/view?usp=sharing) (unfortunately we only had 2 Pi's, otherwise we would have shown more players) 
+
+**5. BONUS (Wendy didn't approve this so you should probably ignore it)** 
+
+We would have loved to get a massive game going, but with everyone's schedules (and the need for consistent internet connection and batteries) that simply was not logistically achievable at our location.

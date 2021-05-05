@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import uuid
 
 # the # wildcard means we subscribe to all subtopics of IDD
-topic = 'IDD/#'
+topic = 'IDD/Manhunt'
 
 # some other examples
 # topic = 'IDD/a/fun/topic'
@@ -18,7 +18,12 @@ def on_connect(client, userdata, flags, rc):
 
 # this is the callback that gets called each time a message is recived
 def on_message(cleint, userdata, msg):
-	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
+	if (msg.topic == topic):
+		f = open("webpage/demo/static/received.jpg", "wb") 
+		f.write(msg.payload)
+		f.close()
+	
+	#print(f"topic: {msg.topic} msg: {msg.payload}")
 	# you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
 

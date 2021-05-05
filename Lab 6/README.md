@@ -89,7 +89,13 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 Our design is a Manhunt game, where one player is designated as the "hunted" player. This player (sender) uses a PiCam and an accelerometer to send image and accelerometer data through MQTT in order for the other players (clients) to deduce where the hunted player is. The accelerometer is constantly sending data, while the camera takes and sends a new image at set intervals (15 seconds in our demo video, but a more realistic value would be maybe 1 minute for a smaller game in a building, 5 minutes for a campus-wide game, etc.)
 
-**2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**2. Diagram the architecture of the system.** 
+
+A sketch detailing what we would have liked the system to look like:
+![sketch](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%206/ece5413_lab6img1.jpg)
+
+A sketch detailing the system architecture:
+![sketch](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Lab%206/ece5413_lab6img2.jpg)
 
 **3. Build a working prototype of the system.** 
 

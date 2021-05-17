@@ -41,16 +41,16 @@ while(True):
 		else:
 			accels[i] = accels[i-1]+math.sqrt(((mpu.acceleration[0]-init_accel[0])**2)+((mpu.acceleration[1]-init_accel[1])**2)+((mpu.acceleration[2]-init_accel[2])**2))	
 			#accels[i] = accels[i-1]+math.sqrt((mpu.acceleration-init_accel)**2)
-	if(accels[9]>40):
+	if(accels[9]>35):
 		if(toggle==0):
 			stepCount+=1
 			toggle = 1
-			time.sleep(0.2)
+			time.sleep(0.1)
 			print(stepCount)
 		else:
 			toggle = 0
-			time.sleep(0.2)	
-	if(stepCount==20):
+			time.sleep(0.1)	
+	if(stepCount==5):
 		client.publish(topic_write, str(stepCount))
 		stepCount=0
             

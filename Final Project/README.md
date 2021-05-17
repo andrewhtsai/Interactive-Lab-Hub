@@ -52,7 +52,10 @@ Here are our demo videos!
 
 ## Reflections
 Exercise (and software work) can be difficult for many people, but doing anything with a group makes even difficult things potentially more fun. We thought we were able to convey this philosophy successfully with our project, both in the process and with the end result. We also wanted to take advantage of 
-a number of the things we learned in this class, such as using MQTT, sensor integration with the Pi, TFT display, and webpage development. 
+a number of the things we learned in this class, such as using MQTT, sensor integration with the Pi, TFT display, and webpage development. In the end, we wish we had a little more time to work on our project since we didn't get to implement the 
+webpage aspect in time for the class demonstration, but we thought we were still able to show our project effectively. The most difficult part of this lab
+actually ended up being the webpage development, since we are still new to incorporating html and javascript code along with using socketio. However,
+the experience was definitely valuable, and we're glad we chose to work on this project.
 
 ## Teams
 

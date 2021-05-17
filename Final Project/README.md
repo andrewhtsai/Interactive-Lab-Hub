@@ -1,7 +1,7 @@
 # Walk As One
 by Andrew Tsai and Sujith Naapa Ramesh
 
-![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/coverphoto.png)
+![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/coverphoto.PNG)
 ## Objective
 We wanted to design an interactive device that would help people reach their exercise goals in an innovative way. The problem we identified with current exercise devices and trackers (such as Apple Watches, Fitbits, etc.) are that they could help a person reach their own exercise goals, but often an individual may have difficulty finding the motivation to exercise just from their own device. We present "We Walk As One," a distributed device where a group of users can combine their goals together
 as a collective in order to Walk As One.

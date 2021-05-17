@@ -1,4 +1,5 @@
 # Walk As One
+by Andrew Tsai and Sujith Naapa Ramesh
 
 ## Objective
 We wanted to design an interactive device that would help people reach their exercise goals in an innovative way. The problem we identified with current exercise devices and trackers (such as Apple Watches, Fitbits, etc.) are that they could help a person reach their own exercise goals, but often an individual may have difficulty finding the motivation to exercise just from their own device. We present "We Walk As One," a distributed device where a group of users can combine their goals together
@@ -35,6 +36,7 @@ To test the server program, we used the MQTT Explorer program introduced in Lab 
 
 ### member-reader.py
 This program also uses MQTT to read in a total stepCount, and maps it to a progress bar shown on the MiniPiTFT. The result is shown below:
+![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/goal_progress.jpg)
 
 
 ### Putting It All Together
@@ -43,6 +45,7 @@ the "goal" topic, and the updates are reflected on the progress bar, which will 
 
 An additional feature we added after filming our demo video (below), based on feedback from our functional demo that we didn't have time to implement, was to implement within server.py
 a webpage host that displays the total stepCount over time, as an additional way to track the activity of a group:
+![alt text](https://github.com/andrewhtsai/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/webpage.jpg)
 
 ## Video
 Here are our demo videos!
